@@ -1,0 +1,65 @@
+  @override
+  // Widget build(BuildContext context) {
+  //   // Créez une liste de données pour le graphique en secteurs
+  //   final List<PieChartSectionData> sections = [];
+
+  //   // Remplissez la liste avec vos données de statistiques
+  //   for (final receipt in stockEntryReceipts) {
+  //     final section = PieChartSectionData(
+  //       color: Colors.primaries[
+  //           stockEntryReceipts.indexOf(receipt) % Colors.primaries.length],
+  //       // Couleur différente pour chaque élément
+  //       value: receipt.total,
+  //       // Valeur du segment (peut être modifiée en fonction de vos données)
+  //       title: '${receipt.reference}\n${receipt.total.toStringAsFixed(2)} \$',
+  //     );
+  //     sections.add(section);
+  //   }
+
+  //   print('========> $stockEntryReceipts');
+
+  //   return Scaffold(
+  //     appBar: AppBar(
+  //       title: Text('Rapport des Entrées de Stock'),
+  //     ),
+  //     body: SingleChildScrollView(
+  //       child: Column(
+  //         children: [
+  //           AspectRatio(
+  //             aspectRatio: 1.3,
+  //             child: PieChart(
+  //               PieChartData(
+  //                 sections: sections,
+  //                 borderData: FlBorderData(show: false),
+  //                 centerSpaceRadius: 40,
+  //                 sectionsSpace: 0,
+  //               ),
+  //             ),
+  //           ),
+  //           ListView.builder(
+  //             shrinkWrap: true, // Pour empêcher le débordement
+  //             itemCount: stockEntryReceipts.length,
+  //             itemBuilder: (context, index) {
+  //               final receipt = stockEntryReceipts[index];
+  //               return Card(
+  //                 margin: const EdgeInsets.all(10.0),
+  //                 child: ListTile(
+  //                   title: Text('Référence: ${receipt.reference}'),
+  //                   subtitle: Column(
+  //                     crossAxisAlignment: CrossAxisAlignment.start,
+  //                     children: [
+  //                       Text('Fournisseur: ${receipt.fournisseur}'),
+  //                       Text('Date: ${receipt.date.toLocal().toString()}'),
+  //                       Text('Nombre d\'articles: ${receipt.articles.length}'),
+  //                       Text('Total: ${receipt.total.toStringAsFixed(2)} \$'),
+  //                     ],
+  //                   ),
+  //                 ),
+  //               );
+  //             },
+  //           ),
+  //         ],
+  //       ),
+  //     ),
+  //   );
+  // }
