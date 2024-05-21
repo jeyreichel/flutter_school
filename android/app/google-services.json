@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "497767583121",
+    "project_id": "caissetectille",
+    "storage_bucket": "caissetectille.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:497767583121:android:43c0892cfaeca9e71dde30",
+        "android_client_info": {
+          "package_name": "com.example.caisse_tectille"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA5N2PCLTcCG0oqslcMIz59T4iSOfPNdP0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
